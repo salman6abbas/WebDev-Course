@@ -1,0 +1,94 @@
+*{
+	font-family: arial;
+	box-sizing: border-box;
+	border: 0px;
+	padding: 0px;
+}
+#h1{
+	text-align: center;
+	font-weight: bold;
+}
+p{
+	background-color: grey;
+	float: left;
+	border: 2px solid black;
+	margin-bottom: 20px;
+	font-weight: 2px
+}
+.c1{
+	text-align: center;
+	width: 100px;
+	height: 23px;
+	border: 2px solid black;
+	background-color: skyblue;
+	float: right;
+	left: 50px;
+	font-weight: bold;
+
+
+}
+.c2{
+	text-align: center;
+	width: 100px;
+	height: 23px;
+	border: 2px solid black;
+	background-color: magenta;
+	float: right;
+	left: 50px;
+	font-weight: bold;
+
+}
+.c3{
+	text-align: center;
+	width: 100px;
+	height: 23px;
+	border: 2px solid black;
+	background-color: pink;
+	float: right;
+	left: 50px;
+	font-weight: bold;
+
+}
+
+
+@media(min-width: 1200px){
+	.p1{
+		width: 32%;
+		margin-left: 15px;
+	}
+	.p2{
+		width: 32%;
+		margin-left: 15px;
+	}
+	.p3{
+		width: 32%;
+		margin-left: 15px;
+	}
+}
+@media(min-width: 768px) and (max-width: 1199px){
+	.p1{
+		width: 45%;
+		margin-left: 2.5%;
+		margin-right: 2.5%;
+	}
+	.p2{
+		width: 45%;
+		margin-left: 2.5%;
+		margin-right: 2.5%;
+	}
+	.p3{
+		width: 95%;
+		margin-left: 2.5%;
+		margin-right: 2.5%;
+	}
+
+
+}
+@media(min-width: 320px) and (max-width: 767px){
+	p{
+		width: 90%;
+		margin-right: 5%;
+		margin-left: 5%;
+		margin-bottom: 1%;
+	}
+}
